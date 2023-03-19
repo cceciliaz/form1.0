@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
     padding: 0;
@@ -17,6 +18,7 @@ h1{
 form{
     border-radius: 20px;
     background-color: #04BFBF;
+    color: #351d1d;
     padding: 150px;
 }
 #bloco{
@@ -27,4 +29,30 @@ form{
     align-items: center;
     width: min-content;
     font-family: 'Rokkitt', serif;
+}
+input{
+    border: none;
+    outline: none;
+}
+legend{
+    font-family: 'Bebas Neue', cursive;
+    padding: 15px;
+    text-align: center;
+    
+}
+#namec{
+    padding-bottom: 5px;
+}
+.button{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    width: 220px;
+    background-color: #A6695B;
+}
+.button:hover{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #f59b87;
 }

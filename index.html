@@ -10,21 +10,32 @@
 <body>
     <div id="bloco">
         <form action="" method="get">
-            <h1>cadastre-se</h1>
-            <div class="input">
-                <label for="iname">name</label>
-            <input type="text" name="name" id="iname">
-            </div>
+            <h1>sign up</h1>
 
-            <label for="isobre">sobrenome</label>
-            <input type="text" name="sobrenome" id="isobre">
+                <legend>Personal data</legend>
+                <div id="namec">
+                    <label for="ifirst">First name</label>
+                    <input type="text" name="first" id="ifirst">
+                    <label for="ilast">Last name</label>
+                    <input type="text" name="last" id="ilast">
+                </div>
+                <div class="en">
+                    <label for="icpf">CPF</label>
+                    <input type="number" name="cpf" id="icpf">
 
-            <label for="iemail">email</label>
-            <input type="text" name="email" id="iemail">
-            </fieldset>
-            
-            <label for="isenha">senha</label>
-            <input type="password" name="email" id="isenha">
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail">
+                </div>
+                <div class="en">
+                    <legend>address</legend>
+                    <label for="ipais">country</label>
+                    <input type="text" name="pais" id="ipais">
+
+                    <label for="icity">city </label>
+                    <input type="text" name="city" id="icity">
+                    
+                </div>
+                <input class="button" type="button" value="register">
         </form>
     </div>
 </body>
